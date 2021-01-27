@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+}
+
+.site-header{
+    width: 100%;
+    box-shadow: 3px 3px 15px rgb(196, 173, 173);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.header nav ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.header img{
+    margin-left: 100px;
+    padding: 20px;
+    margin-right: auto;
+}
+.col{
+    margin-right: 100px;
+    height: 10px;
+    padding: 17px;
+    text-decoration: none;
+    border: 3px solid blue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.header nav ul li{
+    padding: 20px;
+    color: black;
+    font-family: ;
+    text-decoration: none;
+}
+.header nav ul li a{
+    display: block;
+    padding: 18px 0px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.header nav ul li a:hover{
+    box-shadow: 0 3px 0 0 black;
+}
+.col:hover {
+    background-color:  blue;
+    color: white;
+}
+.col:focus {
+    background-color: #00BAFC;
+    color: white;
+}
+.xizmatlar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -25%;
+    top: -300px;
+    background-color: white;
+    width: 160px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.parent-xizmatlar{
+    position: relative;
+}
+.parent-xizmatlar:hover .xizmatlar{
+    position: absolute;
+    left: -25%;
+    top: 77px;
+}
+
+
+
+
+
